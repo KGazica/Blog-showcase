@@ -1,0 +1,188 @@
+body {display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 64px;
+    position: relative;
+    width: 1440px;
+    height: 815px;
+    background: #FFFFFF;}
+
+    h1{
+        width: 244px;
+        height: 59px;
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 110%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    #title{
+        width: 700px;
+        height: 31px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 130%;
+        text-align: center;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    #list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+        width: 1312px;
+        height: 472px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    
+    #cocktail1 {width: 360px;
+        height: 360px;
+        border-radius: 400px;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        z-index: 4;
+    }
+
+    #cocktail2 {
+        width: 360px;
+        height: 360px;
+        border-radius: 400px;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        z-index: 4;
+    }
+
+    #cocktail3 {
+        width: 360px;
+        height: 360px;
+        border-radius: 400px;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        z-index: 4;
+    }
+
+    figcaption {
+        width: 360px;
+        height: 80px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 110%;
+        text-align: center;
+        text-transform: uppercase;
+        flex: none;
+        order: 0;
+        align-self: center;
+        flex-grow: 0;
+    }
+
+    @media screen and (max-width: 376px) {
+        body{display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 64px 16px;
+            gap: 32px;
+            
+            width: 375px;
+            height: 1602px;
+            background: #FFFFFF;}
+        
+            h1{
+                width: 343px;
+                height: 40px;   
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 110%;
+                text-align: center;
+                text-transform: uppercase;
+                flex: none;
+                order: 1;
+                
+                flex-grow: 0;
+            }
+            #title {
+                width: 343px;
+                height: 52px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 130%;
+                text-align: center;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+            }
+
+            #list {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 64px;
+                width: 304px;
+                height: 1292px;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                
+            }
+
+            #cocktail1 {
+                width: 304px;
+                height: 304px;
+                border-radius: 337.778px;
+                flex: none;
+                order: 4;
+                flex-grow: 0;
+                z-index: 4;
+            }
+
+            #cocktail2{width: 304px;
+                height: 304px;
+                border-radius: 337.778px;
+                flex: none;
+                order: 4;
+                flex-grow: 0;
+                z-index: 4;}
+
+                #cocktail3 {width: 304px;
+                    height: 304px;
+                    border-radius: 337.778px;
+                    flex: none;
+                    order: 4;
+                    flex-grow: 0;
+                    z-index: 4;}
+
+                    figcaption{
+                        width: 304px;
+                        height: 52px;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 110%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        flex: none;
+                        order: 0;
+                        align-self: stretch;
+                        flex-grow: 0;
+                    }
+    }
